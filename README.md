@@ -14,7 +14,7 @@
     * `opg6_1.html`
     * `opg6_1.js` - Implement and test the Closure Counter Example from w3schools
     * `opg6_2.js` - Implement a reusable function using the Module pattern
----
+#
 ### Wednesday
 * AJAXwithFetchAndDOM
     * ES6 classes and Single Page Applications - No fetch()
@@ -24,7 +24,7 @@
         * All exercises from 1 to 6
     * **Extra:** JS Event handling, HTML5 and inline SVG
         * All exercises from 1 to 3
----
+#
 ### Thursday
 * RestWithJax - **Backend** Deployed on droplet - _exercise from week 39_ 
 * corsFrontend - **Frontend** Deployed on Surge
@@ -32,7 +32,7 @@
 * userapp
     * Ajax with a full REST CRUD Endpoint and Error-handling - _Exercise 4 from wednesday_
 * `surgeDomain.txt` - Surge domain name for frontend
----
+#
 ### Friday
 * JavaScriptDomAjaxCorsAndSvg - Practical part of first exercise
 * corsFrontendCRUD - Building a frontend with html and Javascript
@@ -40,7 +40,7 @@
 * webProxy - Create a Proxy server from first exercise
 * `Javascript_-_DOM_-_AJAX_-_CORS_-_SVG.pdf` - General part of first exercise
 * `surgeDomain.txt` - Surge domain name for frontend
----
+#
 
 Here is the link for the backend from **Thursdays** exercise. 
 
