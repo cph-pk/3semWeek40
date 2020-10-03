@@ -14,7 +14,7 @@
     * `opg6_1.html`
     * `opg6_1.js` - Implement and test the Closure Counter Example from w3schools
     * `opg6_2.js` - Implement a reusable function using the Module pattern
-### Weedensday
+### Wednesday
 * AJAXwithFetchAndDOM
     * ES6 classes and Single Page Applications - No fetch()
         * Finding individual jokes
@@ -26,8 +26,9 @@
 ### Thursday
 * Flow2Week1Day3
 * corsFrontend
-* jsonserver_w_errors
+* jsonserver_w_errors - _Server for exercise 4 from wednesday_
 * userapp
+    * Ajax with a full REST CRUD Endpoint and Error-handling - _Exercise 4 from wednesday_
 * `surgeDomain.txt`
 ### Friday
 * JavaScriptDomAjaxCorsAndSvg
