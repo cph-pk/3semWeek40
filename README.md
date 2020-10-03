@@ -16,6 +16,13 @@
     * `opg6_2.js` - Implement a reusable function using the Module pattern
 ### Weedensday
 * AJAXwithFetchAndDOM
+    * ES6 classes and Single Page Applications - No fetch()
+        * Finding individual jokes
+        * Adding new Jokes
+    * Small application to display a quote of the hour
+        * All exercises from 1 to 6
+    * **Extra:** JS Event handling, HTML5 and inline SVG
+        * All exercises from 1 to 3
 ### Thursday
 * Flow2Week1Day3
 * corsFrontend
