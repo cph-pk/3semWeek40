@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet" />
+  <style>
+    input[type=text],
+    select {
+      max-width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+
+    <div id="1">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>GENDER</th>
+            <th>EMAIL</th>
+          </tr>
+        </thead>
+        <tbody id="tb"></tbody>
+      </table>
+    </div>
+
+    <br>
+    <hr>
+
+    <div id="2">
+      <h1>Get user by ID</h1>
+      <div class="form-inline">
+        <input type="text" id="inp_UserByID" class="form-control form-control-sm mr-2">
+        <button id="btn_UserByID" class="btn btn-outline-primary btn-sm">Get User</button>
+      </div>
+      <p id="txt_userByID" class="lead mt-2">&nbsp;</p>
+    </div>
+
+    
+    <hr>
+
+    <div id="3">
+      <h1>Insert a person</h1>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" class="form-control form-control-sm"><br>
+      <label for="age">Age:</label><br>
+      <input type="text" id="age" name="age" class="form-control form-control-sm"><br>
+      <label for="gender">Gender:</label><br>
+      <select id="gender" class="form-control form-control-sm">
+        <option value="male">male</option>
+        <option value="female">female</option>
+      </select><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email" class="form-control form-control-sm"><br>
+      <button id="btn_inserPerson" class="btn btn-outline-primary btn-sm">Insert User</button>
+    </div>
+
+    <br>
+    <hr>
+
+    <div id="4">
+      <h1>Update a person</h1>
+      <label for="uid">Id:</label><br>
+      <input type="text" id="uid" name="uid" class="form-control form-control-sm"><br>
+      <label for="uname">Name:</label><br>
+      <input type="text" id="uname" name="uname" class="form-control form-control-sm"><br>
+      <label for="uage">Age:</label><br>
+      <input type="text" id="uage" name="uage" class="form-control form-control-sm"><br>
+      <label for="ugender">Gender:</label><br>
+      <select id="ugender" class="form-control form-control-sm">
+        <option value="male">male</option>
+        <option value="female">female</option>
+      </select><br>
+      <label for="uemail">Email:</label><br>
+      <input type="text" id="uemail" name="uemail" class="form-control form-control-sm"><br>
+      <button id="btn_updatePerson" class="btn btn-outline-primary btn-sm">Update User</button>
+    </div>
+
+    <br>
+    <hr>
+
+    <div id="5">
+      <h1>Delete a person</h1>
+      <label for="did">Id:</label>
+      <div class="form-inline">
+        <input type="text" id="did" name="did" class="form-control form-control-sm">
+        <button id="btn_deletPerson" class="btn btn-outline-primary btn-sm ml-2 mr-2">Delete User</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
