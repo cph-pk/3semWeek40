@@ -24,15 +24,31 @@
     * **Extra:** JS Event handling, HTML5 and inline SVG
         * All exercises from 1 to 3
 ### Thursday
-* Flow2Week1Day3
-* corsFrontend
+* RestWithJax - **Backend** Deployed on droplet - _exercise from week 39_ 
+* corsFrontend - **Frontend** Deployed on Surge
 * jsonserver_w_errors - _Server for exercise 4 from wednesday_
 * userapp
     * Ajax with a full REST CRUD Endpoint and Error-handling - _Exercise 4 from wednesday_
-* `surgeDomain.txt`
+* `surgeDomain.txt` - Surge domain name for frontend
 ### Friday
-* JavaScriptDomAjaxCorsAndSvg
-* corsFrontendCRUD
-* webProxy
-* `Javascript_-_DOM_-_AJAX_-_CORS_-_SVG.pdf`
-* `surgeDomain.txt`
+* JavaScriptDomAjaxCorsAndSvg - Practical part of first exercise
+* corsFrontendCRUD - Building a frontend with html and Javascript
+    * All 4 exercises
+* webProxy - Create a Proxy server from first exercise
+* `Javascript_-_DOM_-_AJAX_-_CORS_-_SVG.pdf` - General part of first exercise
+* `surgeDomain.txt` - Surge domain name for frontend
+
+Here is the link for the backend from **Thursdays** exercise. 
+
+[Link to `Backend` API](https://cphper.dk/cors/)
+##### How to use API in backend:
+The following should be added after `cphper.dk/cors/`  
+Add `api/cors/count` to see how many records in total.  
+Add `api/cors/all` to see all records.  
+Add `api/cors/` + a number`{id}` for one record. 
+
+[Link to `Frontend`](http://cors.surge.sh/)
+
+Here is link for _REST with JAX RS part 4_ from **Fridays** exercise
+
+[Link to full CRUD](http://restcrud.surge.sh/)
