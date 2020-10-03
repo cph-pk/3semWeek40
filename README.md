@@ -1,1 +1,30 @@
 # Week 40 Review
+### Tuesday
+* JavaScriptExercises-Period2Day1
+    * `ClassExercise.js`
+    * `opg1.js`
+    * `opg2.js`
+    * `opg3a.js`
+    * `opg3b.html`
+    * `opg3b.js`
+    * `opg3c.html`
+    * `opg3c.js`
+    * `opg4.js`
+    * `opg5.js`
+    * `opg6_1.html`
+    * `opg6_1.js`
+    * `opg6_2.js`
+### Weedensday
+* AJAXwithFetchAndDOM
+### Thursday
+* Flow2Week1Day3
+* corsFrontend
+* jsonserver_w_errors
+* userapp
+* `surgeDomain.txt`
+### Friday
+* JavaScriptDomAjaxCorsAndSvg
+* corsFrontendCRUD
+* webProxy
+* `Javascript_-_DOM_-_AJAX_-_CORS_-_SVG.pdf`
+* `surgeDomain.txt`
