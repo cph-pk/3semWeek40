@@ -51,23 +51,29 @@ public class requestServlet extends HttpServlet {
         System.out.println(jsonStr);
 
         System.out.println(url);
+        
+        PrintWriter out = response.getWriter();
+	response.setContentType("application/json");
+	response.setCharacterEncoding("UTF-8");
+	out.print(jsonStr);
+	out.flush();
 
-        response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet requestServlet</title>");
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet requestServlet at " + request.getContextPath() + "</h1>");
-
-            out.println(jsonStr);
-
-            out.println("</body>");
-            out.println("</html>");
-        }
+//        response.setContentType("text/html;charset=UTF-8");
+//        try (PrintWriter out = response.getWriter()) {
+//            /* TODO output your page here. You may use following sample code. */
+//            out.println("<!DOCTYPE html>");
+//            out.println("<html>");
+//            out.println("<head>");
+//            out.println("<title>Servlet requestServlet</title>");
+//            out.println("</head>");
+//            out.println("<body>");
+//            out.println("<h1>Servlet requestServlet at " + request.getContextPath() + "</h1>");
+//
+//            out.println(jsonStr);
+//
+//            out.println("</body>");
+//            out.println("</html>");
+//        }
 
     }
 
