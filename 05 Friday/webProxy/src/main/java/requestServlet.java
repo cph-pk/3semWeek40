@@ -35,10 +35,9 @@ public class requestServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        
-         String reqStr = request.getParameter("request");
-        
-         URL url = new URL("http://restcountries.eu/rest/v1/alpha?codes=" + reqStr);
+        String reqStr = request.getParameter("request");
+
+        URL url = new URL("http://restcountries.eu/rest/v1/alpha?codes=" + reqStr);
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("GET");
         con.setRequestProperty("Accept", "application/json;charset=UTF-8");
@@ -48,13 +47,11 @@ public class requestServlet extends HttpServlet {
             jsonStr = scan.nextLine();
         }
         scan.close();
-        
+
         System.out.println(jsonStr);
-        
+
         System.out.println(url);
-     
-        
-        
+
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
@@ -65,13 +62,13 @@ public class requestServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet requestServlet at " + request.getContextPath() + "</h1>");
-            
+
             out.println(jsonStr);
-            
+
             out.println("</body>");
             out.println("</html>");
         }
-       
+
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
